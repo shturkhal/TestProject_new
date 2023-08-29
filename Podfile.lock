@@ -1,0 +1,28 @@
+PODS:
+  - CardSlider (0.1.0)
+  - Spring (1.0.9)
+
+DEPENDENCIES:
+  - CardSlider
+  - Spring (from `https://github.com/LexDeBash/Spring.git`)
+
+SPEC REPOS:
+  trunk:
+    - CardSlider
+
+EXTERNAL SOURCES:
+  Spring:
+    :git: https://github.com/LexDeBash/Spring.git
+
+CHECKOUT OPTIONS:
+  Spring:
+    :commit: 90cc6f0b6e45e8815d24377f2f7b5d49c3f1a463
+    :git: https://github.com/LexDeBash/Spring.git
+
+SPEC CHECKSUMS:
+  CardSlider: 0a8f5f17f5a76701771794b07fdaeddc512358c8
+  Spring: 3e8b7d144afa52f26cf1ddba349812388de6ceb7
+
+PODFILE CHECKSUM: 8ae2370ad6a5dea2f0020a99ec9e592da03be3d6
+
+COCOAPODS: 1.12.1
