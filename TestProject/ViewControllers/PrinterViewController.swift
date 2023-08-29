@@ -45,6 +45,7 @@ class PrinterViewController: UIViewController, CardSliderDataSource {
                          title: "Як це буде українською?",
                          subtitle: "Щоб дізнатись, натисни на зображення",
                          description: "Це МОТУЗКА"))
+       
    
     }
     
@@ -55,9 +56,11 @@ class PrinterViewController: UIViewController, CardSliderDataSource {
         let vc = CardSliderViewController.with(dataSource: self)
         
         vc.title = "Вітаю! 🇺🇦"
+        
         vc.modalPresentationStyle = .fullScreen
         present(vc, animated: true)
  
+        
     }
     
     func setUpShowButton() {
