@@ -437,6 +437,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Settings" id="R1s-HO-r95"/>
+                    <connections>
+                        <outlet property="gestureView" destination="3DM-Zk-92L" id="acd-t3-mg2"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="y7H-gQ-3cW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

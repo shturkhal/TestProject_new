@@ -7,14 +7,23 @@
 
 import UIKit
 
+protocol GestureDelegate: AnyObject {
+    func didTap(_ view: GestureView)
+}
+
+
 class GestureView: UIView {
-
-    /*
-    // Only override draw() if you perform custom drawing.
-    // An empty implementation adversely affects performance during animation.
-    override func draw(_ rect: CGRect) {
-        // Drawing code
+    
+    weak var delegate: GestureDelegate?
+    
+    override class func awakeFromNib() {
+        
     }
-    */
-
+   @objc
+    func didTap() {
+        delegate?.didTap(self)
+        print(#function)
+//        print("Gesture View Tap")
+    }
+   
 }
