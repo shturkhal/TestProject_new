@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B3EB3622AA868EC0015EC4A /* GestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3EB3612AA868EC0015EC4A /* GestureView.swift */; };
 		7B74F8272A69622600594B90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B74F8262A69622600594B90 /* AppDelegate.swift */; };
 		7B74F8292A69622600594B90 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B74F8282A69622600594B90 /* SceneDelegate.swift */; };
 		7B74F82B2A69622600594B90 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B74F82A2A69622600594B90 /* ViewController.swift */; };
@@ -27,6 +28,7 @@
 
 /* Begin PBXFileReference section */
 		75DFDF2073A304C03AAB7B02 /* Pods-TestProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestProject.debug.xcconfig"; path = "Target Support Files/Pods-TestProject/Pods-TestProject.debug.xcconfig"; sourceTree = "<group>"; };
+		7B3EB3612AA868EC0015EC4A /* GestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureView.swift; sourceTree = "<group>"; };
 		7B74F8232A69622600594B90 /* TestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B74F8262A69622600594B90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7B74F8282A69622600594B90 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 				7B74F8262A69622600594B90 /* AppDelegate.swift */,
 				7B74F8282A69622600594B90 /* SceneDelegate.swift */,
 				7B74F82C2A69622600594B90 /* Main.storyboard */,
+				7B3EB3612AA868EC0015EC4A /* GestureView.swift */,
 				7B74F82F2A69622700594B90 /* Assets.xcassets */,
 				7B74F8312A69622700594B90 /* LaunchScreen.storyboard */,
 				7B74F8342A69622700594B90 /* Info.plist */,
@@ -244,6 +247,7 @@
 				7B74F82B2A69622600594B90 /* ViewController.swift in Sources */,
 				7B9E630C2A698EB500794CCA /* Track.swift in Sources */,
 				7B74F83F2A6963E500594B90 /* DocksViewController.swift in Sources */,
+				7B3EB3622AA868EC0015EC4A /* GestureView.swift in Sources */,
 				7B74F83D2A6963D700594B90 /* FolderViewController.swift in Sources */,
 				7B74F8272A69622600594B90 /* AppDelegate.swift in Sources */,
 				7B74F8412A6963F700594B90 /* PrinterViewController.swift in Sources */,

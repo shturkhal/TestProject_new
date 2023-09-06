@@ -419,6 +419,10 @@
                                     <action selector="exitButtonAction:" destination="6ov-1v-3uj" eventType="touchUpInside" id="wQW-J3-zf1"/>
                                 </connections>
                             </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3DM-Zk-92L" customClass="GestureView" customModule="TestProject" customModuleProvider="target">
+                                <rect key="frame" x="18" y="108" width="392" height="642"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="opy-CU-GaT"/>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -426,13 +430,17 @@
                             <constraint firstItem="Lj3-9b-Jvx" firstAttribute="leading" secondItem="opy-CU-GaT" secondAttribute="leading" constant="32" id="2HB-P2-qn9"/>
                             <constraint firstItem="opy-CU-GaT" firstAttribute="trailing" secondItem="Lj3-9b-Jvx" secondAttribute="trailing" constant="32" id="4Ho-lM-2h8"/>
                             <constraint firstItem="opy-CU-GaT" firstAttribute="bottom" secondItem="Lj3-9b-Jvx" secondAttribute="bottom" constant="45" id="6FS-eT-PKd"/>
+                            <constraint firstItem="3DM-Zk-92L" firstAttribute="top" secondItem="opy-CU-GaT" secondAttribute="top" id="8rt-3l-tBh"/>
+                            <constraint firstItem="opy-CU-GaT" firstAttribute="bottom" secondItem="3DM-Zk-92L" secondAttribute="bottom" constant="117" id="8zW-CP-L9I"/>
+                            <constraint firstItem="3DM-Zk-92L" firstAttribute="leading" secondItem="opy-CU-GaT" secondAttribute="leading" constant="18" id="CST-3S-noy"/>
+                            <constraint firstItem="opy-CU-GaT" firstAttribute="trailing" secondItem="3DM-Zk-92L" secondAttribute="trailing" constant="18" id="J2n-IA-tOH"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Settings" id="R1s-HO-r95"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="y7H-gQ-3cW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2029" y="3930"/>
+            <point key="canvasLocation" x="2028.5046728971961" y="3929.8056155507561"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="LhG-vd-Ate">
